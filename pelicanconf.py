@@ -39,7 +39,7 @@ BOOTSTRAP_THEME = 'readable'
 #RELATIVE_URLS = True
 
 DISPLAY_CATEGORIES_ON_MENU = False
-OUTPUT_RETENTION = ('.git', 'CNAME')
+OUTPUT_RETENTION = ('.git', 'CNAME', 'README.md')
 YEAR_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/index.html'
 DATE_FORMATS = {
         'en': '%A, %d %B %Y',
@@ -50,4 +50,7 @@ STATIC_PATHS = ['images', 'bjm', 'extra/CNAME', 'extra/README.md']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},
                        'extra/README.md': {'path': 'README.md'},
                        }
-PROFILE_PICTURE = "FairDaffodils.jpg"
+AVATAR = 'images/FairDaffodils.jpg'
+ABOUT_ME = '<p>information technologist</p><p>Portland, Oregon, USA</p><p>formerly of Praha... San Francisco... New York... Chagrin Falls.</p>'
+SHOW_ARTICLE_AUTHOR = True
+SHOW_ARTICLE_CATEGORY = True
