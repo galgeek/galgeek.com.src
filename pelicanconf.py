@@ -18,16 +18,17 @@ CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
 
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
+LINKS = (('pelican', 'http://getpelican.com/'),
+         ('python.org', 'http://python.org/'),
+         ('jinja2', 'http://jinja.pocoo.org/'),
          )
 
 # Social widget
 SOCIAL = (('github','http://github.com/galgeek'),
-          ('linkedin','www.linkedin.com/in/baramiller/'),
+          ('linkedin','http://www.linkedin.com/in/baramiller/'),
           ('twitter', 'http://twitter.com/galgeek'),
-          ('phone','tel:1-503-616-5427'),)
+          ('phone','tel:1-503-616-5427'),
+        )
 
 DEFAULT_PAGINATION = 10
 
