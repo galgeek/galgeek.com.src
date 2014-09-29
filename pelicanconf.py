@@ -49,3 +49,4 @@ STATIC_PATHS = ['images', 'bjm', 'extra/CNAME', 'extra/README.md']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},
                        'extra/README.md': {'path': 'README.md'},
                        }
+PROFILE_PICTURE = "FairDaffodils.jpg"
