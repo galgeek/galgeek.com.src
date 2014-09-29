@@ -45,5 +45,7 @@ DATE_FORMATS = {
 }
 TWITTER_USERNAME = 'galgeek'
 GITHUB_URL = 'http://github.com/galgeek'
-STATIC_PATHS = ['images', 'bjm', 'extra/CNAME']
-EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
+STATIC_PATHS = ['images', 'bjm', 'extra/CNAME', 'extra/README.md']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},
+                       'extra/README.md': {'path': 'README.md'},
+                       }
