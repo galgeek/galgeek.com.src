@@ -54,3 +54,4 @@ AVATAR = 'images/FairDaffodils.jpg'
 ABOUT_ME = '<p>information technologist</p><p>Portland, Oregon, USA</p><p>formerly of Praha... San Francisco... New York... Chagrin Falls.</p>'
 SHOW_ARTICLE_AUTHOR = True
 SHOW_ARTICLE_CATEGORY = True
+CC_LICENSE = 'CC-BY-SA'
