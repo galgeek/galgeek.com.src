@@ -33,7 +33,7 @@ SOCIAL = (('github','http://github.com/galgeek'),
 DEFAULT_PAGINATION = 10
 
 THEME = 'pelican-bootstrap3'
-BOOTSTRAP_THEME = 'cerulean'
+BOOTSTRAP_THEME = 'readable'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
