@@ -27,7 +27,7 @@ LINKS = (('Pelican', 'http://getpelican.com/'),
 SOCIAL = (('github','http://github.com/galgeek'),
           ('linkedin','www.linkedin.com/in/baramiller/'),
           ('twitter', 'http://twitter.com/galgeek'),
-          ('phone',''),)
+          ('phone','tel:1-503-616-5427'),)
 
 DEFAULT_PAGINATION = 10
 
