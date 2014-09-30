@@ -34,6 +34,7 @@ DEFAULT_PAGINATION = 10
 
 THEME = 'pelican-bootstrap3'
 BOOTSTRAP_THEME = 'readable'
+#BOOTSTRAP_THEME = 'cerulean'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
@@ -51,7 +52,7 @@ EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},
                        'extra/README.md': {'path': 'README.md'},
                        }
 AVATAR = 'images/FairDaffodils.jpg'
-ABOUT_ME = '<p>information technologist</p><p>Portland, Oregon, USA</p><p>formerly of Praha... San Francisco... New York... Chagrin Falls.</p>'
+ABOUT_ME = ' '
 SHOW_ARTICLE_AUTHOR = True
 SHOW_ARTICLE_CATEGORY = True
 CC_LICENSE = 'CC-BY-SA'
