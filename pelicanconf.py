@@ -8,17 +8,19 @@ SITEURL = ''
 
 PATH = 'content'
 
-TIMEZONE = 'America/Los_Angeles'
+TIMEZONE = 'US/Pacific'
 
 DEFAULT_LANG = u'en'
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = None
 TRANSLATION_FEED_ATOM = None
+FEED_DOMAIN = 'http://www.galgeek.com'
 
 # Blogroll
-LINKS = (('pelican', 'http://getpelican.com/'),
+LINKS = (('cool tools', 'http://kk.org/cooltools/'),
+         ('pelican', 'http://getpelican.com/'),
          ('python.org', 'http://python.org/'),
          ('jinja2', 'http://jinja.pocoo.org/'),
          )
@@ -26,6 +28,8 @@ LINKS = (('pelican', 'http://getpelican.com/'),
 # Social widget
 SOCIAL = (('github','http://github.com/galgeek'),
           ('linkedin','http://www.linkedin.com/in/baramiller/'),
+         #('mozillians','https://mozillians.org/u/galgeek/'),
+         # ('ravelry', 'http://www.ravelry.com/projects/baraherself'),
           ('twitter', 'http://twitter.com/galgeek'),
           ('phone','tel:1-503-616-5427'),
         )
@@ -34,7 +38,7 @@ DEFAULT_PAGINATION = 10
 
 THEME = 'pelican-bootstrap3'
 BOOTSTRAP_THEME = 'readable'
-#BOOTSTRAP_THEME = 'cerulean'
+CUSTOM_CSS = 'static/custom.css'
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
@@ -47,12 +51,13 @@ DATE_FORMATS = {
 }
 TWITTER_USERNAME = 'galgeek'
 GITHUB_URL = 'http://github.com/galgeek'
-STATIC_PATHS = ['images', 'bjm', 'extra/CNAME', 'extra/README.md']
+STATIC_PATHS = ['images', 'bjm', 'extra/CNAME', 'extra/README.md', 'extra/custom.css']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},
                        'extra/README.md': {'path': 'README.md'},
+                       'extra/custom.css': {'path': 'static/custom.css'},
                        }
 AVATAR = 'images/FairDaffodils.jpg'
-ABOUT_ME = ' '
+ABOUT_ME = 'information technology generalist<br />Portland, Oregon, USA<br />formerly of Prague... San&nbsp;Francisco... New&nbsp;York... Chagrin&nbsp;Falls'
 SHOW_ARTICLE_AUTHOR = True
 SHOW_ARTICLE_CATEGORY = True
 CC_LICENSE = 'CC-BY-SA'
