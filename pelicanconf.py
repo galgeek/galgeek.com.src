@@ -31,6 +31,7 @@ SOCIAL = (('github','http://github.com/galgeek'),
          #('mozillians','https://mozillians.org/u/galgeek/'),
          # ('ravelry', 'http://www.ravelry.com/projects/baraherself'),
           ('twitter', 'http://twitter.com/galgeek'),
+          ('flickr', 'https://www.flickr.com/photos/bara77'),
           ('phone','tel:1-503-616-5427'),
         )
 
