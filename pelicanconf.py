@@ -58,7 +58,7 @@ EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},
                        'extra/custom.css': {'path': 'static/custom.css'},
                        }
 AVATAR = 'images/FairDaffodils.jpg'
-ABOUT_ME = 'information technology generalist<br />Portland, Oregon, USA<br />formerly of Prague... San&nbsp;Francisco... New&nbsp;York... Chagrin&nbsp;Falls'
-SHOW_ARTICLE_AUTHOR = True
-SHOW_ARTICLE_CATEGORY = True
+ABOUT_ME = 'it generalist<br />Portland, Oregon, USA<br />formerly of Prague... San&nbsp;Francisco... New&nbsp;York... Chagrin&nbsp;Falls'
+SHOW_ARTICLE_AUTHOR = False
+SHOW_ARTICLE_CATEGORY = False
 CC_LICENSE = 'CC-BY-SA'
