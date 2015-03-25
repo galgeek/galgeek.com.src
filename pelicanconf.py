@@ -51,6 +51,7 @@ DATE_FORMATS = {
         'en': '%A, %d %B %Y',
 }
 TWITTER_USERNAME = 'galgeek'
+TWITTER_WIDGET_ID = 580613804570079232
 GITHUB_URL = 'http://github.com/galgeek'
 STATIC_PATHS = ['images', 'bjm', 'extra/CNAME', 'extra/README.md', 'extra/custom.css']
 EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},
@@ -62,3 +63,9 @@ ABOUT_ME = 'it generalist<br />Portland, Oregon, USA<br />formerly of Prague... 
 SHOW_ARTICLE_AUTHOR = False
 SHOW_ARTICLE_CATEGORY = False
 CC_LICENSE = 'CC-BY-SA'
+
+USE_OPEN_GRAPH = False
+
+PYGMENTS_STYLE = 'friendly'
+
+SHARIFF = True

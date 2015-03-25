@@ -2,4 +2,5 @@ output/
 srv.pid
 *~
 *.sw?
+*.pyc
 
