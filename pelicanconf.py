@@ -45,6 +45,7 @@ CUSTOM_CSS = 'static/custom.css'
 #RELATIVE_URLS = True
 
 DISPLAY_CATEGORIES_ON_MENU = False
+DISPLAY_PAGES_ON_MENU = False
 OUTPUT_RETENTION = ('.git', 'CNAME', 'README.md')
 YEAR_ARCHIVE_SAVE_AS = 'posts/{date:%Y}/index.html'
 DATE_FORMATS = {
