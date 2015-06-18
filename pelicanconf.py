@@ -52,8 +52,8 @@ DATE_FORMATS = {
         'en': '%A, %d %B %Y',
 }
 
-#TWITTER_USERNAME = 'galgeek'
-#TWITTER_WIDGET_ID = 580613804570079232
+TWITTER_USERNAME = 'galgeek'
+TWITTER_WIDGET_ID = 580613804570079232
 
 GITHUB_URL = 'http://github.com/galgeek'
 
